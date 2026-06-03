@@ -11,4 +11,4 @@ VISIBILITY=$(jq -r '.repository.visibility' "$GITHUB_EVENT_PATH")
 if [[ "$VISIBILITY" == "private" ]]; then
    echo "🔒 This is a PRIVATE repository."
 else
-  echo "🌍 This is a PUBLIC repository
+  echo "🌍 This is a PUBLIC repository."
