@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run custom action
-        uses: Ephickman1612/Actions_Practice_6
+        uses: Ephickman1612/Actions_Practice_6@main
